@@ -1,1 +1,11 @@
 # LevenshteinDistance
+- write a fucntion that take tow string as parameter , it should return the minimum number of edit operation that need to be performed on the first tring to obtain the second string
+- three edit operations : 
+  - insertion of a character,
+  - deletion of a character,
+  - substitution of a character for another
+- example:
+- input str1 = "abcd" str2 = "xbcdf" 
+- substitution a for x 1.
+- insert f 2;
+- total 2 step;
