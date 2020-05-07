@@ -1,4 +1,6 @@
 class LevenshteinDistance {
+	
+// Time O(NM) Space O(MN)
   public static int levenshteinDistance(String str1, String str2) {
     // Write your code here.
 		int [][] stepCount = new int [str2.length() + 1][str1.length() +1];
@@ -17,6 +19,7 @@ class LevenshteinDistance {
 		}
     return stepCount[str2.length()][str1.length()];
   }
+// time O(mn) space O(min(m, n))
 public static int levenshteinDistance1(String str1, String str2){
 	String shorter = str1.length() < str2.length() ?  str1 : str2;
 	String longer = str1.length() >= str2.length() ? str1: str2;
