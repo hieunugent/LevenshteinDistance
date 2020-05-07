@@ -17,6 +17,15 @@ class LevenshteinDistance {
 		}
     return stepCount[str2.length()][str1.length()];
   }
+public static int levenshteinDistance1(String str1, String str2){
+	String shorter = str1.length() < str2.length() ?  str1 : str2;
+	String longer = str1.length() >= str2.length() ? str1: str2;
+	int 
+}
+	
+	
+	
+	
 	public static int minOfthree(int a, int b, int c){
 		return Math.min(a, Math.min(b, c));
 	}
